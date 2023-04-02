@@ -4,20 +4,20 @@ import { getAnalytics } from "firebase/analytics";
 import { getAuth, createUserWithEmailAndPassword, updateCurrentUser, signInWithEmailAndPassword } from "firebase/auth";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDs855gn8Xf6iii39jCcdBb3D1SRy_TiUY",
-    authDomain: "shoping-app-b54ea.firebaseapp.com",
-    projectId: "shoping-app-b54ea",
-    storageBucket: "shoping-app-b54ea.appspot.com",
-    messagingSenderId: "22244812660",
-    appId: "1:22244812660:web:c8b4be195a27e7bef46e21",
-    measurementId: "G-D0YSDGB7ED"
-};
+    apiKey: "AIzaSyB_vDX1IBKFY5AJpWSBCbH4oLypNQuKNtQ",
+    authDomain: "ecommerce-techsnapie.firebaseapp.com",
+    projectId: "ecommerce-techsnapie",
+    storageBucket: "ecommerce-techsnapie.appspot.com",
+    messagingSenderId: "962717184142",
+    appId: "1:962717184142:web:a30e0eb25e0be6c951d9df",
+    measurementId: "G-G7HHMSE8LE"
+  };
 
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 export const auth = getAuth(app);
 
-/*
+
 const signUp = async (name, email, password) => {
     try {
         await createUserWithEmailAndPassword(auth, email, password);
@@ -34,4 +34,3 @@ const signIn = async (email, password) => {
         console.log(error);
     }
 }
-*/
