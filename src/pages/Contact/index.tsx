@@ -15,7 +15,7 @@ export default function Contact() {
                     </Box>
                 </Grid>
                 <Grid item xs={12} md={6}>
-                    <Box my={8} component={'form'} action={'mailto: karakollubilal@gmail.com'} method={'post'}>
+                    <Box my={8} component={'form'} action={'mailto: techsnapie@gmail.com'} method={'post'}>
                             <TextField fullWidth type={'text'} margin={'normal'} label={'Full Name'} required/>
                             <TextField fullWidth type={'email'} margin={'normal'} label={'Email'} required/>
                             <TextField multiline rows={4} fullWidth type={'text'} margin={'normal'} label={'Message'} required/>
