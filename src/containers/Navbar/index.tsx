@@ -79,7 +79,7 @@ export default function Navbar() {
                             sx={{ mr: 2, display: { xs: 'none', md: 'flex' }, fontWeight: 'bold', fontSize: '1.2rem' }}
                         >
                             <Link to={'/'}>
-                                Shoping App
+                                Techsnapie App
                             </Link>
                         </Typography>
 
@@ -134,7 +134,7 @@ export default function Navbar() {
                             sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
                         >
                             <Link to={'/'}>
-                                Shoping App
+                                Techsnapie App
                             </Link>
                         </Typography>
                         {/*Mobil End */}

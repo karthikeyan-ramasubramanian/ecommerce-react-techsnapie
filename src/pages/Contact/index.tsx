@@ -36,7 +36,7 @@ export default function Contact() {
           <Box
             my={8}
             component={"form"}
-            action={"mailto: karakollubilal@gmail.com"}
+            action={"mailto: techsnapie@gmail.com"}
             method={"post"}
           >
             <TextField
